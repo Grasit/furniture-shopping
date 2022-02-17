@@ -1,6 +1,8 @@
 function Boarding() {
     return (
-        <div></div>
+        <div>
+            <img src="/images/couch.png" alt="grey couch"/>
+        </div>
         );
 }
 
