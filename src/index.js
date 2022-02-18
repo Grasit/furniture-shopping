@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LogIn from './pages/LogIn';
+import SignUp from './pages/SignUp';
 
 // const element = <h1>Hello, world!</h1>
 // ReactDOM.render(
@@ -19,6 +20,8 @@ ReactDOM.render(
             {/* <App/> */}
             <Route path='/' element = {<App/>}/>
             <Route path='/LogIn' element = {<LogIn/>}/>
+            <Route path='/SignUp' element = {<SignUp/>}/>
+            
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
