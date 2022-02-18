@@ -10,7 +10,10 @@ module.exports = {
       colors : {
         'black3' : '#606060',
         'primary' : '#242424',
-        'black-font' : '#303030'
+        'black-font' : '#303030',
+        'gray-4' : '#BDBDBD',
+        'black4' : '#303030',
+        'grey-2' : '#909090'
       }
     },
   },
