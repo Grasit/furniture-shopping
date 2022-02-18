@@ -1,4 +1,7 @@
-function Boarding() {
+import { Link } from "react-router-dom";
+
+
+const Boarding = () => {
     return (
         <div className= "bg-[url('/public/images/couch.png')] w-screen h-screen grid grid-rows-3">
             <div></div>
@@ -12,7 +15,9 @@ function Boarding() {
             </div>
             </div>
             <div>
-                <button className="top-20 bg-primary text-white px-10 py-5 rounded text-xl font-semibold">Get Started</button>
+                <Link to={"./LogIn"}>
+                    <button className="top-20 bg-primary text-white px-10 py-5 rounded text-xl font-semibold">Get Started</button>
+                </Link>
             </div>
         </div>
         );
