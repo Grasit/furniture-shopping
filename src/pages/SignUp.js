@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { useForm } from "react-hook-form";
 import HorizontalLine from "../elements/HorizontalLine";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -48,7 +49,8 @@ const SignUp = () => {
                         <p>{errors?.repeatpassword?.type === 'required' && "Password doesn't match"}</p>
                     <input type="submit" className=" mx-auto my-10 p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48, 48, 48, 0.25)]" value="SIGN UP"/>
                     <p className=" text-center mx-auto text-sm text-['#808080']">Already have an account?
-                         <span className="font-semibold uppercase text-md text-black ml-4">Sign In</span>
+                         <Link to={'/LogIn'}><span className="font-semibold uppercase text-md text-black ml-4">Sign In</span>
+                        </Link>
                      </p>
                 </form>
             </div>
