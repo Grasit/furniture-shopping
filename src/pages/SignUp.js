@@ -2,22 +2,14 @@ import React, {useState} from "react";
 import { useForm } from "react-hook-form";
 import HorizontalLine from "../elements/HorizontalLine";
 import { Link } from "react-router-dom";
+import NetworkBar from "../elements/NetworkBar";
 
 const SignUp = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
    return( 
         <div className=" grid grid-rows-[1fr 1fr 1fr 5fr] gap-4 p-4 relative">
-            <div className="flex flex-row justify-between row-start-1 row-span-1">
-                <p className="text-md text-black font-['SF Pro Text'] w-12">
-                    9:41
-                </p>
-                <div className="flex flex-row space-x-2 w-16">
-                    <img src="/images/Combined Shape.png" alt="network bar" className="w-4 h-3"/>
-                    <img src="/images/Wi-Fi.png" alt=" wi-fi bar" className="w-3 h-3"/>
-                    <img src="/images/Battery.png" alt="battery" className="w-4 h-3"/>
-                </div>
-            </div>
+            <NetworkBar/>
             <div className="grid grid-cols-3 row-start-2 row-span-1">
                 <HorizontalLine/>
                 <div className="w-16 h-16 rounded-full border-2  border-black4 relative mx-auto">
@@ -47,7 +39,8 @@ const SignUp = () => {
                     <input {...register ("repeatpassword",{register: true})}  
                      className="border-b-2 border-gray-4 w-full p-2 outline-none"/>
                         <p>{errors?.repeatpassword?.type === 'required' && "Password doesn't match"}</p>
-                    <input type="submit" className=" mx-auto my-10 p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48, 48, 48, 0.25)]" value="SIGN UP"/>
+                    <Link to={'/Home'}><input type="submit" className=" mx-auto my-10 p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48, 48, 48, 0.25)]" value="SIGN UP"/>
+                    </Link>
                     <p className=" text-center mx-auto text-sm text-['#808080']">Already have an account?
                          <Link to={'/LogIn'}><span className="font-semibold uppercase text-md text-black ml-4">Sign In</span>
                         </Link>

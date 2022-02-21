@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './pages/Home';
 import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
 
@@ -21,7 +22,7 @@ ReactDOM.render(
             <Route path='/' element = {<App/>}/>
             <Route path='/LogIn' element = {<LogIn/>}/>
             <Route path='/SignUp' element = {<SignUp/>}/>
-            
+            <Route path='/Home' element = {<Home/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
