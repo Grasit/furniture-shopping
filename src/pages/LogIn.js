@@ -2,22 +2,14 @@ import React, {useState} from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import HorizontalLine from "../elements/HorizontalLine";
+import NetworkBar from "../elements/NetworkBar";
 
 const LogIn = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
    return( 
         <div className=" grid grid-rows-[1fr 1fr 1fr 1fr 5fr 1fr] gap-4 p-4 relative">
-            <div className="flex flex-row justify-between row-start-1 row-span-1">
-                <p className="text-md text-black font-['SF Pro Text'] w-12">
-                    9:41
-                </p>
-                <div className="flex flex-row space-x-2 w-16">
-                    <img src="/images/Combined Shape.png" alt="network bar" className="w-4 h-3"/>
-                    <img src="/images/Wi-Fi.png" alt=" wi-fi bar" className="w-3 h-3"/>
-                    <img src="/images/Battery.png" alt="battery" className="w-4 h-3"/>
-                </div>
-            </div>
+           <NetworkBar/>
             <div className="grid grid-cols-3 row-start-2 row-span-1">
                 <HorizontalLine/>
                 <div className="w-16 h-16 rounded-full border-2  border-black4 relative mx-auto">
