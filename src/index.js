@@ -7,12 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
-
-// const element = <h1>Hello, world!</h1>
-// ReactDOM.render(
-//  element,
-//   document.getElementById('root')
-// );
+import Product from './pages/Product';
 
 
 ReactDOM.render(
@@ -23,6 +18,7 @@ ReactDOM.render(
             <Route path='/LogIn' element = {<LogIn/>}/>
             <Route path='/SignUp' element = {<SignUp/>}/>
             <Route path='/Home' element = {<Home/>}/>
+            <Route path='/Product' element = {<Product/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );

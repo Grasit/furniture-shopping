@@ -18,10 +18,10 @@ const LogIn = () => {
                 </div>
                 <HorizontalLine/>
             </div>
-            <div className="text-3xl text-gray-4 font-['Merriweather'] row-start-3 row-span-1">
+            <div className="text-3xl text-gray-4 font-[Merriweather] row-start-3 row-span-1">
                 <p>Hello  !</p>
             </div>
-            <div className="text-2xl font-semibold uppercase font-['Merriweather'] text-black-font row-start-4 row-span-1">
+            <div className="text-2xl font-semibold uppercase font-[Merriweather] text-black-font row-start-4 row-span-1">
                 <p>Welcome back</p>
             </div>
             <div className="row-start-5 row-span-5 shadow-[0px_7px_30px_rgba(138,149,158,0.2)] absolute left-0 w-11/12">
