@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
 import Product from './pages/Product';
+import Favorite from './pages/Favorite';
 
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
             <Route path='/SignUp' element = {<SignUp/>}/>
             <Route path='/Home' element = {<Home/>}/>
             <Route path='/Product' element = {<Product/>}/>
+            <Route path='/Favorite' element = {<Favorite/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
