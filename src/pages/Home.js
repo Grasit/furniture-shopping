@@ -98,7 +98,9 @@ const Home = () => {
                 <Link to={"/Favorite"}>
                     <img src="/images/Marker.png" alt="a marker" className="w- h-"/>
                 </Link>
-                <img src="/images/Bell.png" alt="a bell" className="w- h-"/>
+                <Link to={"/Notifs"}>
+                    <img src="/images/Bell.png" alt="a bell" className="w- h-"/>
+                </Link>
                 <img src="/images/Person.png" alt="a person icon" className="w- h-"/>
             </div>
        </div>
