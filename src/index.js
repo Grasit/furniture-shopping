@@ -9,6 +9,7 @@ import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
 import Product from './pages/Product';
 import Favorite from './pages/Favorite';
+import Cart from './pages/Cart';
 
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
             <Route path='/Home' element = {<Home/>}/>
             <Route path='/Product' element = {<Product/>}/>
             <Route path='/Favorite' element = {<Favorite/>}/>
+            <Route path='/cart' element = {<Cart/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );

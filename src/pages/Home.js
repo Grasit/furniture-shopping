@@ -11,7 +11,9 @@ const Home = () => {
                <img src="/images/Search.png" alt="seacrh bar" className="w-5"/>
                <p className="w-28 text-center text-lg text-[#909090] font-[Gelatio]">Make Home <span className="font-bold uppercase text-black-font">beautiful</span>
                </p>
-               <img src="/images/Cart.png" alt="a shopping cart" className="w-6"/>
+               <Link to={"/Cart"}>
+                    <img src="/images/Cart.png" alt="a shopping cart" className="w-6"/>
+                </Link>
             </div>
             <div className="flex row-start-3 row-span-1 justify-between text-[#999999] text-sm">
                 <div className="flex flex-col">
