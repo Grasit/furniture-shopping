@@ -12,7 +12,12 @@ module.exports = {
         'primary' : '#242424',
         'black-font' : '#303030',
         'gray-4' : '#BDBDBD',
-        'grey-2' : '#909090'
+        'grey-2' : '#909090',
+        'grey' : '#808080',
+        'disabled' : '#999999'
+      },
+      fontFamily : {
+        'primary' : ['Nunito Sans']
       }
     },
   },

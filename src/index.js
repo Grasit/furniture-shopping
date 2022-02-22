@@ -9,6 +9,8 @@ import LogIn from './pages/LogIn';
 import SignUp from './pages/SignUp';
 import Product from './pages/Product';
 import Favorite from './pages/Favorite';
+import Cart from './pages/Cart';
+import CheckOut from './pages/CheckOut';
 
 
 ReactDOM.render(
@@ -21,6 +23,8 @@ ReactDOM.render(
             <Route path='/Home' element = {<Home/>}/>
             <Route path='/Product' element = {<Product/>}/>
             <Route path='/Favorite' element = {<Favorite/>}/>
+            <Route path='/Cart' element = {<Cart/>}/>
+            <Route path='/CheckOut' element = {<CheckOut/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );

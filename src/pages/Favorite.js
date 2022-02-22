@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../elements/Footer";
+import { Link } from "react-router-dom";
 import NetworkBar from "../elements/NetworkBar";
 
 const Favorite =() =>{
@@ -9,7 +10,9 @@ const Favorite =() =>{
             <div className="flex justify-between rows-start-2 row-span-1 my-4">
                <img src="/images/Search.png" alt="search bar" className="w-5"/>
                <p className="w-28 text-center font-bold text-black-font font-[Meriweather]">Favorites</p>
-               <img src="/images/Cart.png" alt="a shopping cart" className="w-6"/>
+               <Link to={"/Cart"}>
+                <img src="/images/Cart.png" alt="a shopping cart" className="w-6"/>
+               </Link> 
             </div>
             <div className="grid grid-cols-3 gap-4">
                 <img src="/images/Table Set.png" alt="a coffee table set" className="rounded-lg h-36"/>
