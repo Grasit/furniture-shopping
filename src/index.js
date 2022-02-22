@@ -13,6 +13,7 @@ import Cart from './pages/Cart';
 import CheckOut from './pages/CheckOut';
 import Congrats from './pages/Congrats';
 import Notifs from './pages/Notifs';
+import Review from './pages/Review';
 
 
 ReactDOM.render(
@@ -29,6 +30,7 @@ ReactDOM.render(
             <Route path='/CheckOut' element = {<CheckOut/>}/>
             <Route path='/Congrats' element = {<Congrats/>}/>
             <Route path='/Notifs' element = {<Notifs/>}/>
+            <Route path='/Review' element = {<Review/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
