@@ -94,7 +94,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="flex justify-around">
-                <img src="/images/Home.png" alt="picture of a home" className="w- h-"/>
+                <img src="/images/Home.png" alt=" a house" className="w- h-"/>
                 <Link to={"/Favorite"}>
                     <img src="/images/Marker.png" alt="a marker" className="w- h-"/>
                 </Link>

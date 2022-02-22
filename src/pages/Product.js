@@ -40,7 +40,9 @@ const Product =() => {
                 <div className="flex gap-4 my-4 font-[#808080]">
                     <img src="/images/Star.png" alt="a star" className="bg-yellow"/>
                     <p>4.5</p>
-                    <p>(50 reviews)</p>
+                    <Link to={"/Review"}>
+                        <p>(50 reviews)</p>
+                    </Link>
                 </div>
                 <p className="my-4 text-lg">Minimal Stand is made of by natural wood. 
                     The design that is very simple and minimal. 

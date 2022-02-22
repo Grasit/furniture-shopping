@@ -10,7 +10,7 @@ const Notifs =() => {
                 <Link to={"/Home"}>
                     <img src="/images/Back Container.png" alt="a back icon" className="w-1.5 h-3.5"/>
                 </Link>
-                <p className="w-2/3 font-bold font-[Meriweather]">Notification</p>
+                <p className="w-2/3 font-bold font-[Merriweather]">Notification</p>
             </div>
             <div className="bg-[#F5F5F5] flex  gap-4 h-24 px-4 py-2">
                 <img src="/images/Minimal Stand.png" alt="a stand" className="w-16 h-16 rounded-lg"/>

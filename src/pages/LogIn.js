@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import HorizontalLine from "../elements/HorizontalLine";
 import NetworkBar from "../elements/NetworkBar";
 
 const LogIn = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
    return( 
         <div className=" grid grid-rows-[1fr 1fr 1fr 1fr 5fr 1fr] gap-4 p-4 relative">
