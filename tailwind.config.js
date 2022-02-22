@@ -14,7 +14,9 @@ module.exports = {
         'gray-4' : '#BDBDBD',
         'grey-2' : '#909090',
         'grey' : '#808080',
-        'disabled' : '#999999'
+        'disabled' : '#999999',
+        'success' : '#27AE60',
+        'red' : '#EB5757'
       },
       fontFamily : {
         'primary' : ['Nunito Sans']

@@ -12,6 +12,7 @@ import Favorite from './pages/Favorite';
 import Cart from './pages/Cart';
 import CheckOut from './pages/CheckOut';
 import Congrats from './pages/Congrats';
+import Notifs from './pages/Notifs';
 
 
 ReactDOM.render(
@@ -27,6 +28,7 @@ ReactDOM.render(
             <Route path='/Cart' element = {<Cart/>}/>
             <Route path='/CheckOut' element = {<CheckOut/>}/>
             <Route path='/Congrats' element = {<Congrats/>}/>
+            <Route path='/Notifs' element = {<Notifs/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
