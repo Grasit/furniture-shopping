@@ -101,7 +101,9 @@ const Home = () => {
                 <Link to={"/Notifs"}>
                     <img src="/images/Bell.png" alt="a bell" className="w- h-"/>
                 </Link>
-                <img src="/images/Person.png" alt="a person icon" className="w- h-"/>
+                <Link to={"/Profile"}>
+                    <img src="/images/Person.png" alt="a person icon" className="w- h-"/>
+                </Link>
             </div>
        </div>
     )

@@ -14,6 +14,7 @@ import CheckOut from './pages/CheckOut';
 import Congrats from './pages/Congrats';
 import Notifs from './pages/Notifs';
 import Review from './pages/Review';
+import Profile from './pages/Profile';
 
 
 ReactDOM.render(
@@ -31,6 +32,7 @@ ReactDOM.render(
             <Route path='/Congrats' element = {<Congrats/>}/>
             <Route path='/Notifs' element = {<Notifs/>}/>
             <Route path='/Review' element = {<Review/>}/>
+            <Route path='/Profile' element = {<Profile/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
