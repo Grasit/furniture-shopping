@@ -16,6 +16,7 @@ import Notifs from './pages/Notifs';
 import Review from './pages/Review';
 import Profile from './pages/Profile';
 import Order from './pages/Order';
+import Shipping from './pages/Shipping';
 
 
 ReactDOM.render(
@@ -35,6 +36,7 @@ ReactDOM.render(
             <Route path='/Review' element = {<Review/>}/>
             <Route path='/Profile' element = {<Profile/>}/>
             <Route path='/Order' element = {<Order/>}/>
+            <Route path='/Shipping' element = {<Shipping/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
