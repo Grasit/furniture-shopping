@@ -5,7 +5,7 @@ import NetworkBar from "../elements/NetworkBar";
 
 const Favorite =() =>{
     return (
-        <div className="p-4 space-y-4 relative font-primary">
+        <div className="p-4 space-y-4 relative font-[Nunito Sans]">
             <NetworkBar/>
             <div className="flex justify-between rows-start-2 row-span-1 my-4">
                <img src="/images/Search.png" alt="search bar" className="w-5"/>
@@ -14,7 +14,7 @@ const Favorite =() =>{
                 <img src="/images/Cart.png" alt="a shopping cart" className="w-6"/>
                </Link> 
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-5">
                 <img src="/images/Table Set.png" alt="a coffee table set" className="rounded-lg w-28 h-28"/>
                 <div className="w-28">
                     <p className="font-semibold text-sm text-black3">Coffee Table</p>
@@ -30,7 +30,7 @@ const Favorite =() =>{
                 </div>
             </div>
             <hr/>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-5">
                 <img src="/images/Table Set.png" alt="a coffee table set" className="rounded-lg w-28 h-28"/>
                 <div className="w-28">
                     <p className="font-semibold text-sm text-black3">Coffee Table</p>
@@ -46,7 +46,7 @@ const Favorite =() =>{
                 </div>
             </div>
             <hr/>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-5">
                 <img src="/images/Coffee Chair.png" alt="a coffee chair" className="rounded-lg w-28 h-28"/>
                 <div className="w-28">
                     <p className="font-semibold text-sm text-black3">Coffee Chair</p>
@@ -108,9 +108,11 @@ const Favorite =() =>{
                     </div>
                 </div>
             </div>
-            <button className="fixed p-4 bg-primary font-semibold text-lg text-white bottom-20 w-11/12 shadow-[0px_10px_20px_rgba(48,48,48,0.25] rounded-lg">
+            <Link to={"/Cart"}>
+                <button className="fixed p-4 bg-primary font-semibold text-xl text-white bottom-20 w-11/12 shadow-[0px_10px_20px_rgba(48,48,48,0.25] rounded-lg">
                 Add all to my cart
-            </button>
+                </button>
+            </Link>
             <Footer/>
         </div>
     )
