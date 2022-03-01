@@ -55,9 +55,11 @@ const Shipping =() => {
                     25 rue Robert Latouche, Nice, 06200, Côte D'azur, France
                 </p>
             </div>
-            <div className="w-14 h-14 rounded-full shadow-[0px_2px_60px_rgba(138,149,158,0.3)] ml-72 mt-20 flex justify-center text-center">
-                <p className="my-auto w-4 h-4">+</p>
-            </div>
+            <Link to={"/AddShipping"}>
+                <div className="w-14 h-14 rounded-full shadow-[0px_2px_60px_rgba(138,149,158,0.3)] ml-72 mt-20 flex justify-center text-center">
+                    <p className="my-auto w-4 h-4">+</p>
+                </div>
+            </Link>
         </div>
     )
 };

@@ -19,6 +19,7 @@ import Order from './pages/Order';
 import Shipping from './pages/Shipping';
 import Payment from './pages/Payment';
 import MyReview from './pages/MyReview';
+import AddShipping from './pages/AddShipping';
 
 
 ReactDOM.render(
@@ -41,6 +42,7 @@ ReactDOM.render(
             <Route path='/Shipping' element = {<Shipping/>}/>
             <Route path='/Payment' element = {<Payment/>}/>
             <Route path='/MyReview' element = {<MyReview/>}/>
+            <Route path='/AddShipping' element = {<AddShipping/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
