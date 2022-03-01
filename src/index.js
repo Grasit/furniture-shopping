@@ -18,6 +18,7 @@ import Profile from './pages/Profile';
 import Order from './pages/Order';
 import Shipping from './pages/Shipping';
 import Payment from './pages/Payment';
+import MyReview from './pages/MyReview';
 
 
 ReactDOM.render(
@@ -39,6 +40,7 @@ ReactDOM.render(
             <Route path='/Order' element = {<Order/>}/>
             <Route path='/Shipping' element = {<Shipping/>}/>
             <Route path='/Payment' element = {<Payment/>}/>
+            <Route path='/MyReview' element = {<MyReview/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );
