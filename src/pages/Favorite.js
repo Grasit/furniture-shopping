@@ -108,7 +108,7 @@ const Favorite =() =>{
                     </div>
                 </div>
             </div>
-            <button className="absolute p-4 bg-primary font-semibold text-lg text-white bottom-20 w-11/12 shadow-[0px_10px_20px_rgba(48,48,48,0.25] rounded-lg">
+            <button className="fixed p-4 bg-primary font-semibold text-lg text-white bottom-20 w-11/12 shadow-[0px_10px_20px_rgba(48,48,48,0.25] rounded-lg">
                 Add all to my cart
             </button>
             <Footer/>
