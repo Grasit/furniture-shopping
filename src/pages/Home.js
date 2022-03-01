@@ -8,11 +8,11 @@ const Home = () => {
        <div className="grid grid-rows-[1fr 1fr 1fr 6fr 1fr] p-4 gap-4">
            <NetworkBar/>
            <div className="flex justify-between rows-start-2 row-span-1 my-4">
-               <img src="/images/Search.png" alt="seacrh bar" className="w-5"/>
+               <img src="/images/Search.png" alt="seacrh bar" className="w-5 h-5 my-auto"/>
                <p className="w-28 text-center text-lg text-[#909090] font-[Gelatio]">Make Home <span className="font-bold uppercase text-black-font">beautiful</span>
                </p>
                <Link to={"/Cart"}>
-                    <img src="/images/Cart.png" alt="a shopping cart" className="w-6"/>
+                    <img src="/images/Cart.png" alt="a shopping cart" className="w-6 h-6 mt-4"/>
                 </Link>
             </div>
             <div className="flex row-start-3 row-span-1 justify-between text-[#999999] text-sm">
@@ -64,7 +64,7 @@ const Home = () => {
                         <ShoppingBag/>
                     </div>
                     <p className="my-2">Black Simple Lamp</p>
-                    <p className="font-semibold text-black-font">$ 12.00</p>
+                    <p className="font-bold text-black-font">$ 12.00</p>
                 </div>
                 <div>
                     <Link to={"/Product"}>
@@ -74,7 +74,7 @@ const Home = () => {
                         </div>
                     </Link>
                     <p className="my-2">Minimal Stand</p>
-                    <p className="font-semibold text-black-font">$ 25.00</p>
+                    <p className="font-bold text-black-font">$ 25.00</p>
                 </div>
                 <div>
                     <div className="relative">
@@ -82,7 +82,7 @@ const Home = () => {
                         <ShoppingBag/>
                     </div>
                     <p className="my-2">Coffee Chair</p>
-                    <p className="font-semibold text-black-font">$ 20.00</p>
+                    <p className="font-bold text-black-font">$ 20.00</p>
                 </div>
                 <div >
                     <div className="relative">
@@ -90,7 +90,7 @@ const Home = () => {
                         <ShoppingBag/>
                     </div>
                     <p className="my-2">Simple Desk</p>
-                    <p className="font-semibold text-black-font">$ 50.00</p>
+                    <p className="font-bold text-black-font">$ 50.00</p>
                 </div>
             </div>
             <div className="flex justify-around">

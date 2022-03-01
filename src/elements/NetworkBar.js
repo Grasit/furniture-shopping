@@ -2,7 +2,7 @@ import React from "react";
 
 const NetworkBar = () => {
     return (
-        <div className="flex flex-row justify-between row-start-1 row-span-1 p-2">
+        <div className="flex flex-row justify-between row-start-1 row-span-1 py-2">
         <p className="text-md text-black font-['SF Pro Text'] w-12">
             9:41
         </p>
