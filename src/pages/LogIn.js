@@ -35,7 +35,9 @@ const LogIn = () => {
                      className="border-b-2 border-gray-4 w-full p-2 outline-none"/>
                         <p>{errors?.password?.type === 'required' && 'Password is required'}</p>
                     <p className="my-10 text-center font-semibold text-lg">Forgot Password</p>
-                    <input type="submit" className=" mx-auto p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48,48,48,0.25)]" value="Log In"/>
+                    <Link to={"/Home"}>
+                        <input type="submit" className=" mx-auto p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48,48,48,0.25)]" value="Log In"/>
+                    </Link>
                     <Link to={"/SignUp"}>
                         <p className="uppercase mx-auto text-center text-lg font-semibold my-5"> Sign up</p>
                     </Link>

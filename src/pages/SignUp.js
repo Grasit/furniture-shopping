@@ -18,11 +18,11 @@ const SignUp = () => {
                 </div>
                 <HorizontalLine/>
             </div>
-            <div className="text-2xl my-10 font-semibold uppercase font-['Merriweather'] text-black-font row-start-3 row-span-1">
+            <div className="text-2xl my-10 font-semibold uppercase font-['Merriweather'] text-black-font row-start-3 row-span-1 px-4">
                 <p>Welcome</p>
             </div>
-            <div className="row-start-4 row-span-7 shadow-[0px_7px_30px_rgba(138,149,158,0.2)] absolute left-0 w-11/12">
-                <form onSubmit={handleSubmit(onSubmit)} className="p-2">
+            <div className="row-start-4 row-span-7 shadow-[0px_7px_30px_rgba(138,149,158,0.2)] absolute left-0 w-11/12 px-4">
+                <form onSubmit={handleSubmit(onSubmit)} className="p-4 space-y-4">
                     <label className=" text-grey-2"> Name</label>
                     <input {...register('name', {required : true})} 
                          className="border-b-2 border-gray-4 w-full p-2 outline-none"/> 
@@ -39,10 +39,12 @@ const SignUp = () => {
                     <input {...register ("repeatpassword",{register: true})}  
                      className="border-b-2 border-gray-4 w-full p-2 outline-none"/>
                         <p>{errors?.repeatpassword?.type === 'required' && "Password doesn't match"}</p>
-                    <Link to={'/Home'}><input type="submit" className=" mx-auto my-10 p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48, 48, 48, 0.25)]" value="SIGN UP"/>
+                    <Link to={'/Home'}>
+                        <input type="submit" className=" mx-auto p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48, 48, 48, 0.25)]" value="SIGN UP"/>
                     </Link>
-                    <p className=" text-center mx-auto text-sm text-['#808080']">Already have an account?
-                         <Link to={'/LogIn'}><span className="font-semibold uppercase text-md text-black ml-4">Sign In</span>
+                    <p className=" text-center mx-auto my-4 text-sm text-['#808080']">Already have an account?
+                         <Link to={'/LogIn'}>
+                             <span className="font-semibold uppercase text-md text-black ml-4">Sign In</span>
                         </Link>
                      </p>
                 </form>
