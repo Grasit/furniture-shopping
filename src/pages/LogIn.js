@@ -18,14 +18,14 @@ const LogIn = () => {
                 </div>
                 <HorizontalLine/>
             </div>
-            <div className="text-3xl text-gray-4 font-[Merriweather] row-start-3 row-span-1">
+            <div className="text-3xl text-gray-4 font-[Merriweather] row-start-3 row-span-1 px-4">
                 <p>Hello  !</p>
             </div>
-            <div className="text-2xl font-semibold uppercase font-[Merriweather] text-black-font row-start-4 row-span-1">
+            <div className="text-2xl font-semibold uppercase font-[Merriweather] text-black-font row-start-4 row-span-1 px-4">
                 <p>Welcome back</p>
             </div>
-            <div className="row-start-5 row-span-5 shadow-[0px_7px_30px_rgba(138,149,158,0.2)] absolute left-0 w-11/12">
-                <form onSubmit={handleSubmit(onSubmit)} className="p-2">
+            <div className="row-start-5 row-span-5 shadow-[0px_7px_30px_rgba(138,149,158,0.2)] absolute left-0 w-11/12 px-4 mt-6">
+                <form onSubmit={handleSubmit(onSubmit)} className="p-4 space-y-4">
                     <label className=" text-grey-2"> Email</label>
                     <input {...register('email', {required : true})} 
                          className="border-b-2 border-gray-4 w-full p-2 outline-none"/> 
@@ -35,10 +35,9 @@ const LogIn = () => {
                      className="border-b-2 border-gray-4 w-full p-2 outline-none"/>
                         <p>{errors?.password?.type === 'required' && 'Password is required'}</p>
                     <p className="my-10 text-center font-semibold text-lg">Forgot Password</p>
-                    <input type="submit" className=" mx-auto p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48, 48, 48, 0.25)]" value="Log In"/>
+                    <input type="submit" className=" mx-auto p-2 bg-black-font text-white text-xl w-11/12 rounded-lg outline-none shadow-[0px_10px_20px_rgba(48,48,48,0.25)]" value="Log In"/>
                     <Link to={"/SignUp"}>
-                        <button className="uppercase mx-auto my-4 text-lg font-semibold flex self-center">Sign Up
-                        </button>
+                        <p className="uppercase mx-auto text-center text-lg font-semibold my-5"> Sign up</p>
                     </Link>
                 </form>
             </div>
