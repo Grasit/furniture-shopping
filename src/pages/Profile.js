@@ -21,7 +21,7 @@ const Profile =() => {
                     <p className="text-grey text-sm">bruno203@gmail.com</p>
                 </div>
             </div>
-            <div className=" flex justify-between p-4 shadow-[0px_8px_40px_rgba(138,149,158,0.2)] mx-4 h-20">
+            <div className=" flex justify-between p-4 shadow-[0px_8px_40px_rgba(138,149,158,0.2)] mx-4 h-20 rounded-lg">
                 <div>
                     <p className="text-lg font-bold">My Orders</p>
                     <p className="text-grey text-xs">Already have 10 orders</p>
@@ -30,7 +30,7 @@ const Profile =() => {
                     <img src="/images/Forward.png" alt="front icon" className="w-1.5 h-3 mt-4"/>
                 </Link>
             </div>
-            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20">
+            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20 rounded-lg">
                 <div>
                     <p className="text-lg font-bold">Shipping Addresses</p>
                     <p className="text-grey text-xs">03 addresses</p>
@@ -39,7 +39,7 @@ const Profile =() => {
                     <img src="/images/Forward.png" alt="front icon" className="w-1.5 h-3 mt-4"/>
                 </Link>
             </div>
-            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20">
+            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20 rounded-lg">
                 <div>
                     <p className="text-lg font-bold">Payment Method</p>
                     <p className="text-grey text-xs">You have 2 cards</p>
@@ -48,16 +48,16 @@ const Profile =() => {
                     <img src="/images/Forward.png" alt="front icon" className="w-1.5 h-3 mt-4"/>
                 </Link>
             </div>
-            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20">
+            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20 rounded-lg">
                 <div>
                     <p className="text-lg font-bold">My Reviews</p>
                     <p className="text-grey text-xs">Reviews for 2 items</p>
                 </div>
-                <Link to={"/Review"}>
+                <Link to={"/MyReview"}>
                     <img src="/images/Forward.png" alt="front icon" className="w-1.5 h-3 mt-4"/>
                 </Link>
             </div>
-            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20">
+            <div className=" flex justify-between p-4 shadow-[0px_7px_40px_rgba(138,149,158,0.2)] mx-4 h-20 rounded-lg">
                 <div>
                     <p className="text-lg font-bold">Settings</p>
                     <p className="text-grey text-xs">Notification, Password, FAQ, Contact</p>
