@@ -32,19 +32,19 @@ const Product =() => {
                 <div className="flex justify-between">
                     <p className="text-3xl font-bold">$ 50</p>
                     <div className="flex justify-between w-1/2">
-                        <div className="bg-gray-4 text-black w-7 h-7 rounded-md text-center">+</div>
+                        <div className="bg-gray-5 text-black w-7 h-7 rounded-md text-center">+</div>
                         <p>01</p>
-                        <div className="bg-gray-4 text-black w-7 h-7 rounded-md text-center">-</div>
+                        <div className="bg-gray-5 text-black w-7 h-7 rounded-md text-center">-</div>
                     </div>
                 </div>
                 <div className="flex gap-4 my-4 font-[#808080]">
-                    <img src="/images/Star.png" alt="a star" className="bg-yellow"/>
-                    <p>4.5</p>
+                    <img src="/images/Yellow Star.png" alt="a star" className="bg-yellow"/>
+                    <p className="text-lg font-semibold">4.5</p>
                     <Link to={"/Review"}>
                         <p>(50 reviews)</p>
                     </Link>
                 </div>
-                <p className="my-4 text-lg">Minimal Stand is made of by natural wood. 
+                <p className="my-4 text-sm text-black3 font-light leading-5 tracking-wider">Minimal Stand is made of by natural wood. 
                     The design that is very simple and minimal. 
                     This is truly one of the best furnitures in any family for now. 
                     With 3 different colors, you can easily select the best match for your home.
