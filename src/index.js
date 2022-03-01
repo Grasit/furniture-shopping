@@ -21,6 +21,7 @@ import Payment from './pages/Payment';
 import MyReview from './pages/MyReview';
 import AddShipping from './pages/AddShipping';
 import AddPayment from './pages/AddPayment';
+import Settings from './pages/Settings';
 
 
 ReactDOM.render(
@@ -45,6 +46,7 @@ ReactDOM.render(
             <Route path='/MyReview' element = {<MyReview/>}/>
             <Route path='/AddShipping' element = {<AddShipping/>}/>
             <Route path='/AddPayment' element = {<AddPayment/>}/>
+            <Route path='/Settings' element = {<Settings/>}/>
         </Routes>
     </BrowserRouter>, document.getElementById('root')
 );

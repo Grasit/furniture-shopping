@@ -11,6 +11,7 @@ module.exports = {
         'black3' : '#606060',
         'primary' : '#242424',
         'black-font' : '#303030',
+        'gray-5': '#E0E0E0',
         'gray-4' : '#BDBDBD',
         'grey-2' : '#909090',
         'grey' : '#808080',
