@@ -20,7 +20,7 @@ module.exports = {
         'red' : '#EB5757'
       },
       fontFamily : {
-        'primary' : ['Nunito Sans']
+        'primary' : '[Nunito Sans]'
       }
     },
   },
