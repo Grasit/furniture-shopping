@@ -7,7 +7,7 @@ const Cart =() => {
             <div className="p-4 space-y-4 relative font-primary">
                 <NetworkBar/>
                 <div className="flex gap-10  text-center">
-                    <Link to={"/Home"}>
+                    <Link to={"/Product"}>
                         <img src="/images/Back Container.png" alt="a back icon" className="w-1.5 h-3.5"/>
                     </Link>
                     <p className="w-2/3 font-bold font-[Meriweather]">My Cart</p>
