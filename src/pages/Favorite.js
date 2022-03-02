@@ -5,7 +5,7 @@ import NetworkBar from "../elements/NetworkBar";
 
 const Favorite =() =>{
     return (
-        <div className="p-4 space-y-4 relative font-[Nunito Sans]">
+        <div className="p-4 space-y-4 relative font-primary">
             <NetworkBar/>
             <div className="flex justify-between rows-start-2 row-span-1 my-4">
                <img src="/images/Search.png" alt="search bar" className="w-5"/>

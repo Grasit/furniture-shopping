@@ -4,7 +4,7 @@ import NetworkBar from "../elements/NetworkBar";
 
 const Cart =() => {
     return (
-            <div className="p-4 space-y-4 relative font-[Nunito Sans]">
+            <div className="p-4 space-y-4 relative font-primary">
                 <NetworkBar/>
                 <div className="flex gap-10  text-center">
                     <Link to={"/Home"}>
