@@ -5,9 +5,9 @@ import ShoppingBag from "../elements/ShoppingBag";
 
 const Home = () => {
     return (
-       <div className="grid grid-rows-[1fr 1fr 1fr 6fr 1fr] p-4 gap-4">
+       <div className="grid grid-rows-[1fr 1fr 1fr 6fr 1fr] p-4 gap-5 font-primary">
            <NetworkBar/>
-           <div className="flex justify-between rows-start-2 row-span-1 my-4">
+           <div className="flex justify-between rows-start-2 row-span-1">
                <img src="/images/Search.png" alt="seacrh bar" className="w-5 h-5 my-auto"/>
                <p className="w-28 text-center text-lg text-[#909090] font-[Gelatio]">Make Home <span className="font-bold uppercase text-black-font">beautiful</span>
                </p>
@@ -15,18 +15,18 @@ const Home = () => {
                     <img src="/images/Cart.png" alt="a shopping cart" className="w-6 h-6 mt-4"/>
                 </Link>
             </div>
-            <div className="flex row-start-3 row-span-1 justify-between text-[#999999] text-sm">
+            <div className="flex row-start-3 row-span-1 justify-between text-[#999999] text-sm text-center">
                 <div className="flex flex-col">
-                    <div className="bg-black rounded-xl w-11 h-11 flex justify-center">
-                        <img src="/images/Star.png" alt="a star" className=" w-3.5 h-7 my-auto"/>
+                    <div className="bg-black-font rounded-xl w-11 h-11 flex justify-center">
+                        <img src="/images/Star.png" alt="a star" className=" my-auto"/>
                     </div>
-                    <p>
+                    <p className="text-primary font-semibold">
                         Popular
                     </p>
                 </div>
                 <div className="flex flex-col">
                     <div className="bg-[#F5F5F5] rounded-xl w-11 h-11 flex justify-center">
-                        <img src="/images/Chair.png" alt="a chair" className=" w-3.5 h-7 my-auto"/>
+                        <img src="/images/Chair.png" alt="a chair" className=" my-auto"/>
                     </div>
                     <p>
                             Chair
@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col">
                     <div className="bg-[#F5F5F5] rounded-xl w-11 h-11 flex justify-center">
-                        <img src="/images/Table.png" alt="a table" className=" w-7 h-5 my-auto"/>
+                        <img src="/images/Table.png" alt="a table" className="my-auto"/>
                     </div>
                     <p>
                             Table
@@ -42,15 +42,15 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col">
                     <div className="bg-[#F5F5F5] rounded-xl w-11 h-11 flex justify-center">
-                        <img src="/images/Armchair.png" alt="an armchair" className=" w-3.5 h-7 my-auto"/>
+                        <img src="/images/Armchair.png" alt="an armchair" className="my-auto"/>
                     </div>
                     <p>
                             Armchair
                     </p>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col text-center">
                     <div className="bg-[#F5F5F5] rounded-xl w-11 h-11 flex justify-center">
-                        <img src="/images/Bed.png" alt="a bed" className=" w-3.5 h-7 my-auto"/>
+                        <img src="/images/Bed.png" alt="a bed" className="my-auto"/>
                     </div>
                     <p>
                             Bed
@@ -60,7 +60,7 @@ const Home = () => {
             <div className="flex flex-wrap gap-5 text-sm text-black3">
                 <div>
                     <div className="relative bg-[#C4C4C4] rounded-xl w-40">
-                        <img src="/images/Lamp.png" alt="a black simple lamp" className="w-40"/>
+                        <img src="/images/Lamp.png" alt="a black simple lamp" className="w-40 rounded-md"/>
                         <ShoppingBag/>
                     </div>
                     <p className="my-2">Black Simple Lamp</p>
@@ -69,7 +69,7 @@ const Home = () => {
                 <div>
                     <Link to={"/Product"}>
                         <div className="relative">
-                            <img src="/images/Minimal Stand.png" alt=" a stand"/>
+                            <img src="/images/Minimal Stand.png" alt=" a stand" className="rounded-md"/>
                             <ShoppingBag/>
                         </div>
                     </Link>
@@ -78,7 +78,7 @@ const Home = () => {
                 </div>
                 <div>
                     <div className="relative">
-                        <img src="/images/Coffee Chair.png" alt="a coffee chair"/>
+                        <img src="/images/Coffee Chair.png" alt="a coffee chair" className="rounded-md"/>
                         <ShoppingBag/>
                     </div>
                     <p className="my-2">Coffee Chair</p>
@@ -86,7 +86,7 @@ const Home = () => {
                 </div>
                 <div >
                     <div className="relative">
-                        <img src="/images/Simple Desk.png" alt="a simple deak"/>
+                        <img src="/images/Simple Desk.png" alt="a simple deak" className="rounded-md"/>
                         <ShoppingBag/>
                     </div>
                     <p className="my-2">Simple Desk</p>
