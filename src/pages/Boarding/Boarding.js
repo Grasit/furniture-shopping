@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Boarding = () => {
     return (
-        <div className= "bg-[url('/public/images/couch.png')] w-screen h-screen grid grid-rows-3">
+        <div className= "bg-[url('/public/images/couch.png')] bg-no-repeat w-100% h-screen grid grid-rows-3">
             <div></div>
             <div>
             <div className=" top-11 flex flex-col text-left ml-10 font-[gelasio]">

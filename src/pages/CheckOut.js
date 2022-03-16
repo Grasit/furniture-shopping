@@ -4,7 +4,7 @@ import NetworkBar from "../elements/NetworkBar";
 
 const CheckOut =() => {
     return  (
-        <div className=" p-4 space-y-8 font-primary">
+        <div className=" p-4 space-y-4 font-primary">
             <NetworkBar/>
             <div className="flex gap-10  text-center">
                 <Link to={"/Cart"}>
