@@ -26,15 +26,17 @@ const LogIn = () => {
             </div>
             <div className="row-start-5 row-span-5 shadow-[0px_7px_30px_rgba(138,149,158,0.2)] absolute left-0 w-11/12 pl-8 mt-6">
                 <form onSubmit={handleSubmit(onSubmit)} className="py-4 space-y-4">
+                    <div>
                     <label className=" text-grey-2"> Email</label>
                     <input {...register('email', {required : true})} 
-                         className="border-b-2 border-gray-4 w-full p-2 outline-none"/> 
+                         className="border-b-2 border-gray-4 p-2 w-full outline-none"/> 
                     <p>{errors?.email?.type === 'required' && "Email is required"}</p> 
+                    </div>
                     <div className="relative">
-                    <label className=" text-grey-2"> Password</label>
+                        <label className=" text-grey-2"> Password</label>
                         <input {...register ("password",{register: true})}  
                         className="border-b-2 border-gray-4 w-full p-2 outline-none"/>
-                        <img src="/images/eye 2.png" alt="an eye icon" className="absolute bottom-2 right-0"/>
+                        <img src="/images/eye 2.png" alt="an eye icon" className="absolute bottom-2 right-4"/>
                             <p>{errors?.password?.type === 'required' && 'Password is required'}</p>
                     </div>
                     <p className="mt-10 text-center font-semibold text-lg">Forgot Password</p>
